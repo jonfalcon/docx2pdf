@@ -1,0 +1,25 @@
+{
+  "name": "docx2pdf",
+  "version": "0.0.1",
+  "description": "Converts docx to pdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pdf2word",
+    "pdf",
+    "word",
+    "converter"
+  ],
+  "author": "junlue",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "mammoth": "^1.5.1",
+    "puppeteer-core": "^11.0.0"
+  },
+  "devDependencies": {
+    "puppeteer": "^19.2.0"
+  }
+}
