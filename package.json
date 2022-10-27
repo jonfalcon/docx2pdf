@@ -9,7 +9,7 @@
     "word",
     "converter"
   ],
-  "author": "junlue",
+  "author": "junlue <junlue10@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "chrome-aws-lambda": "^10.1.0",
