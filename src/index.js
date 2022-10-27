@@ -17,7 +17,7 @@ async function pdf2docx (fpIn) {
       args: chromium.args,
       defaultViewPort: chromium.defaultViewport,
       executablePath: await chromium.executablePath,
-      headless: chromium.headless,
+      headless: true,
       ignoreHTTPSErrors: true
     });
     
