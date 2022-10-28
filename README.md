@@ -27,6 +27,6 @@ const fpOut = fs.createWriteStream('/path/to/output/file.pdf');
 pdfStream.pipe(pdfStream);
 
 // stream the pdf into http response
-res.setHead('content-type', 'application/pdf');
+res.setHeader('content-type', 'application/pdf');
 res.pipe(fpStream);
 ```
