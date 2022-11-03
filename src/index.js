@@ -7,7 +7,6 @@ const chromium = require( 'chrome-aws-lambda' )
  * Converts docx to pdf or html.
  * 
  * @param  fpIn   {string}  Path to the pdf file
- * @returns {pdf: Readable, html: string}
  */
 async function pdf2docx ( fpIn ) {
   let browser
